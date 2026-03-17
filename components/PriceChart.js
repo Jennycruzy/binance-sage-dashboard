@@ -67,10 +67,8 @@ export default function PriceChart({ symbol = 'BTCUSDT' }) {
                     scaleMargins: { top: 0.85, bottom: 0 },
                 });
 
-                // Fetch klines
-                const res = await fetch(
-                    `https://api.binance.com/api/v3/klines?symbol=${symbol}&interval=1d&limit=90`
-                );
+                // Fetch klines via internal proxy to bypass Binance CORS/Geo-blocks
+                const res = await fetch(`/api/proxy-klines?symbol=${symbol}`);
                 const klines = await res.json();
 
                 if (cancelled) return;
