@@ -74,7 +74,7 @@ export default function Dashboard() {
         <div className="header-left">
           <div className="header-logo">S</div>
           <div>
-            <div className="header-title">Binance Sage Terminal</div>
+            <div className="header-title">Sage Trading Dashboard</div>
             <div className="header-subtitle">Real-Time Market Intelligence</div>
           </div>
         </div>

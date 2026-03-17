@@ -1,8 +1,8 @@
 import './globals.css';
 
 export const metadata = {
-  title: 'Binance Sage Terminal',
-  description: 'Bloomberg-style crypto trading dashboard powered by Binance Sage AI',
+  title: 'Sage Trading Dashboard',
+  description: 'Bloomberg-style crypto trading dashboard powered by Sage Trading Bot',
   icons: {
     icon: '/favicon.ico',
   },
