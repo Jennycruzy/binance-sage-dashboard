@@ -85,7 +85,7 @@ export default function Dashboard() {
           </div>
           <div className="header-time">{clock}</div>
           <a
-            href="https://t.me/BinanceSageBot"
+            href="https://t.me/binancesage_bot"
             target="_blank"
             rel="noopener noreferrer"
             className="bot-link"
